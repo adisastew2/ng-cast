@@ -3,12 +3,9 @@ angular.module('video-player')
 .component('videoListEntry', {
 
   bindings: {
-    aVideo: '<'
+    aVideo: '<',
+    updatevid: '<'
   },
-
-  // controller: function() {
-  //   console.log(aVideo);
-  // },
 
   templateUrl: 'src/templates/videoListEntry.html'
 
